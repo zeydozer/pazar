@@ -20,11 +20,7 @@ class Controller extends BaseController
 
     public function test(Request $r)
     {
-        $datas = \App\Models\Product::get();
-
-        // dd($datas); exit;
-
-        return 'branch test commit';
+        // ..
     }
 
     public function ctg_update()
