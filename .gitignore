@@ -1,0 +1,13 @@
+/laravel/node_modules
+/entegre/hot
+/entegre/storage
+/entegre/assets/images
+/laravel/storage/*.key
+/laravel/vendor
+/laravel/.env
+/laravel/.env.backup
+/laravel/.phpunit.result.cache
+/laravel/Homestead.json
+/laravel/Homestead.yaml
+/laravel/npm-debug.log
+/laravel/yarn-error.log
