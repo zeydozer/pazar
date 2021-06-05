@@ -22,7 +22,9 @@ class Controller extends BaseController
     {
         $datas = \App\Models\Product::get();
 
-        dd($datas); exit;
+        // dd($datas); exit;
+
+        return 'branch test commit';
     }
 
     public function ctg_update()
