@@ -22,7 +22,7 @@ class Controller extends BaseController
     {
         // ..
 
-        return 'test-1 test-1';
+        return 'test-1 test-2';
     }
 
     public function ctg_update()
