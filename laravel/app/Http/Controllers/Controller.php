@@ -18,8 +18,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    // branch test commit
-
     public function test(Request $r)
     {
         // ..
