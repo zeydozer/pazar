@@ -18,9 +18,11 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function test()
+    public function test(Request $r)
     {
-        // ..
+        $datas = \App\Models\Product::get();
+
+        dd($datas); exit;
     }
 
     public function ctg_update()
