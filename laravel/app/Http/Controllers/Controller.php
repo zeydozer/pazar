@@ -18,13 +18,11 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
+    // branch test commit
+
     public function test(Request $r)
     {
-        $datas = \App\Models\Product::get();
-
-        // dd($datas); exit;
-
-        return 'branch test commit';
+        // ..
     }
 
     public function ctg_update()
