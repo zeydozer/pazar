@@ -21,6 +21,8 @@ class Controller extends BaseController
     public function test(Request $r)
     {
         // ..
+        
+        return 'pull test';
     }
 
     public function ctg_update()
